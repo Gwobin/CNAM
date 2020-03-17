@@ -9,4 +9,5 @@ while (n < 5)
     printf ("La factorielle de %d est égale a %d\n", n, factorielle);
     n++;
     }
-}
+} 
+        //Rajout de commentaire pour tester le lancement sur GITHUB..
