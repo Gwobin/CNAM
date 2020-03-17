@@ -4,11 +4,14 @@ int main () {
     int factorielle=0;
     // Codez ici
     
-while (n < 5)
-    {
-    printf ("La factorielle de %d est égale a %d\n", n, factorielle);
-    n++;
+if (n == 5) goto ok
+pasOk;
+
+ok:
+printf("N est bien égal a 5");
+pasOk:
+printf("N n'est pas égal a 5")
+
     }
-} 
-        //Rajout de commentaire pour tester le lancement sur GITHUB..
+        //Pas sur de mon coup.. 
      
